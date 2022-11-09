@@ -1,0 +1,42 @@
+
+/*** GENERAL SETTIINGS ***/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ box-sizing: border-box;
+ background-color: rgba(0,0,0,0.05);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.wrapper {
+ width: 90%;
+ margin: auto;
+ padding-top: 20px;
+}
+
+.group-images img {
+ padding-bottom: 20px;
+}
+
+@media (min-width:1024px){
+    .wrapper  {
+       width: 65%;
+    }
+    .group-images {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .group-images img {
+        width: 40%;
+        padding:20px;
+    }
+}
+
